@@ -25,25 +25,21 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        # ------------------------ sort version
-        # nums = [3,3];target = 6
-        # I can't fix the problem if identical items exist in my array
-        lib = {}
-        for i in range(len(nums)):
-            lib[i] = nums[i]
-
+        nums_bp = [x for x in nums]
         nums.sort()
-        found = False
         p = 0
-        container = []
-        while not found and nums[p] < target:
+        while True:
             lookfor = target - nums[p]
             answer = BS(nums, low=p + 1, high=len(nums) - 1, x=lookfor)
             p += 1
             if None != answer:
-                found = True
-                container = [lib[nums[p-1]], lib[nums[answer]]]
-        return container
+                container = [nums[p-1], nums[answer]]
+                break
+        if container[0] == container[1]:
+            outputlist = [i for i, x in enumerate(nums_bp) if x == container[0]]
+        else:
+            outputlist = [ nums_bp.index(x) for x in container ]
+        return outputlist
 
 def BS(alist, low, high, x):
     if high >= low:

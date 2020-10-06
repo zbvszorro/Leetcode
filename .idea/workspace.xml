@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array." />
+    <list default="true" id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/TwoSum.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602017039857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array.">
+      <created>1602018124108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602018124108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,10 +126,14 @@
     </state>
     <state x="58" y="73" key="SettingsEditor/0.23.1440.822/-1920.-82.1920.1057@0.23.1440.822" timestamp="1601949448903" />
     <state x="58" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1602001872326" />
-    <state x="369" y="157" width="700" height="530" key="recent.locations.popup" timestamp="1602015280166">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602018138602">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="369" y="157" width="700" height="530" key="recent.locations.popup/0.23.1440.822@0.23.1440.822" timestamp="1602015280166" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1602018138602" />
+    <state x="369" y="157" width="700" height="530" key="recent.locations.popup" timestamp="1602020282092">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="369" y="157" width="700" height="530" key="recent.locations.popup/0.23.1440.822@0.23.1440.822" timestamp="1602020282092" />
     <state x="385" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1602001732844">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
