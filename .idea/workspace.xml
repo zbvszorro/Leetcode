@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iTMLvqWg5jd2C14bo1OXhIcMuI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="" />
+      <created>1601927075459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601927075459</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array.">
+      <created>1602016550148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602016550148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601953130708">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822/-1920.-82.1920.1057@0.23.1440.822" timestamp="1601953130708" />
+    <state x="466" y="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601953089275">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="466" y="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.822/-1920.-82.1920.1057@0.23.1440.822" timestamp="1601953089275" />
+    <state x="590" y="338" key="Github.ShareDialog" timestamp="1601952695616">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="590" y="338" key="Github.ShareDialog/0.23.1440.822/-1920.-82.1920.1057@0.23.1440.822" timestamp="1601952695616" />
+    <state x="58" y="73" key="SettingsEditor" timestamp="1602001872326">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="58" y="73" key="SettingsEditor/0.23.1440.822/-1920.-82.1920.1057@0.23.1440.822" timestamp="1601949448903" />
+    <state x="58" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1602001872326" />
+    <state x="369" y="157" width="700" height="530" key="recent.locations.popup" timestamp="1602015280166">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="369" y="157" width="700" height="530" key="recent.locations.popup/0.23.1440.822@0.23.1440.822" timestamp="1602015280166" />
+    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1602001732844">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1602001732844" />
+  </component>
+</project>
