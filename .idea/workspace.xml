@@ -16,18 +16,25 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array.">
+    <list default="true" id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="Use binary search and manage to lower the running time from o(n^2) to o(n*logn). Next step is to constrain the running time into o(n)">
+      <change afterPath="$PROJECT_DIR$/Array/ContainerWithMostWater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/TwoSum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -37,6 +44,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/zbvszorro/Leetcode.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1iTMLvqWg5jd2C14bo1OXhIcMuI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,6 +67,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -85,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602018124108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Use binary search and manage to lower the running time from o(n^2) to o(n*logn). Next step is to constrain the running time into o(n)">
+      <created>1602020570182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602020570182</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,15 +115,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array." />
+    <MESSAGE value="Use binary search and manage to lower the running time from o(n^2) to o(n*logn). Next step is to constrain the running time into o(n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use binary search and manage to lower the running time from o(n^2) to o(n*logn). Next step is to constrain the running time into o(n)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601953130708">
@@ -126,14 +162,14 @@
     </state>
     <state x="58" y="73" key="SettingsEditor/0.23.1440.822/-1920.-82.1920.1057@0.23.1440.822" timestamp="1601949448903" />
     <state x="58" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1602001872326" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602018138602">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602020731126">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1602018138602" />
-    <state x="369" y="157" width="700" height="530" key="recent.locations.popup" timestamp="1602020282092">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1602020731126" />
+    <state x="369" y="157" width="700" height="530" key="recent.locations.popup" timestamp="1602194294380">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="369" y="157" width="700" height="530" key="recent.locations.popup/0.23.1440.822@0.23.1440.822" timestamp="1602020282092" />
+    <state x="369" y="157" width="700" height="530" key="recent.locations.popup/0.23.1440.822@0.23.1440.822" timestamp="1602194294380" />
     <state x="385" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1602001732844">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
