@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="Use binary search and manage to lower the running time from o(n^2) to o(n*logn). Next step is to constrain the running time into o(n)">
-      <change afterPath="$PROJECT_DIR$/Array/ContainerWithMostWater.py" afterDir="false" />
+    <list default="true" id="8eb460c9-fd4e-44fb-9989-52a62c696a22" name="Default Changelist" comment="First try failed due to abusing memeory by reforming the list again and again. I did think of using pointer from head and tail, but didn't complete.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ContainerWithMostWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ContainerWithMostWater.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602020570182</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First try failed due to abusing memeory by reforming the list again and again. I did think of using pointer from head and tail, but didn't complete.">
+      <created>1602211176687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602211176687</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First try failed due to abusing memeory by reforming the list again and again. I did think of using pointer from head and tail, but didn't complete.">
+      <created>1602211193296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602211193296</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,9 +151,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Built the most basic TwoSum function and tried to improve the efficiency by using Binary Search. However, I was stuck in how to refer back when multiple identical int exist in the array." />
     <MESSAGE value="Use binary search and manage to lower the running time from o(n^2) to o(n*logn). Next step is to constrain the running time into o(n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use binary search and manage to lower the running time from o(n^2) to o(n*logn). Next step is to constrain the running time into o(n)" />
+    <MESSAGE value="First try failed due to abusing memeory by reforming the list again and again. I did think of using pointer from head and tail, but didn't complete." />
+    <option name="LAST_COMMIT_MESSAGE" value="First try failed due to abusing memeory by reforming the list again and again. I did think of using pointer from head and tail, but didn't complete." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="430" y="265" key="#Notifications" timestamp="1602211332042">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="430" y="265" key="#Notifications/0.23.1440.822@0.23.1440.822" timestamp="1602211332042" />
     <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601953130708">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -162,10 +181,10 @@
     </state>
     <state x="58" y="73" key="SettingsEditor/0.23.1440.822/-1920.-82.1920.1057@0.23.1440.822" timestamp="1601949448903" />
     <state x="58" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1602001872326" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602020731126">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602211201522">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1602020731126" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1602211201522" />
     <state x="369" y="157" width="700" height="530" key="recent.locations.popup" timestamp="1602194294380">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
